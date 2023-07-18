@@ -28,8 +28,12 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 80%;
   margin: auto;
+}
+
+.hide{
+  display: none;
 }
 
 /* Common_Css_End================= */
@@ -193,15 +197,26 @@ margin-bottom: 1rem;
     font-size: 4rem;
   }
   #Navbar .main ul {
-    flex-direction: column;
-    margin-top: 7rem;
+    margin-top: 2rem;
   }
 
   #Navbar .main ul li a {
-    font-size: 4rem;
-    text-transform: uppercase;
-    padding: 4rem 2rem;
+    font-size: 1.5rem;
+    padding: 0rem 0rem;
+    font-size: 1rem;
+  
+
   }
+
+  #Navbar .main ul li {
+    margin-left: 0.5rem;
+  
+  }
+
+  .container{
+    width: 90%;
+  }
+  
 
   #Banner .main {
     flex-direction: column-reverse;
